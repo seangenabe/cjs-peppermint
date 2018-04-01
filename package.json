@@ -1,6 +1,6 @@
 {
   "name": "@seangenabe/peppermint",
-  "version": "1.0.0",
+  "version": "1.0.0+1.4.0",
   "description": "CommonJS wrapper for Peppermint - touch slider",
   "main": "peppermint.js",
   "scripts": {
