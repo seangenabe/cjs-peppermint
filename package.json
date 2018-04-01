@@ -2,7 +2,7 @@
   "name": "@seangenabe/peppermint",
   "version": "1.0.0",
   "description": "CommonJS wrapper for Peppermint - touch slider",
-  "main": "index.js",
+  "main": "peppermint.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel node_modules/Peppermint/dist/peppermint.js --out-file peppermint.js && cpy node_modules/Peppermint/dist/peppermint.required.css . && cpy node_modules/Peppermint/dist/peppermint.suggested.css .",
