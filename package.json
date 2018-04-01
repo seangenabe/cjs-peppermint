@@ -1,0 +1,32 @@
+{
+  "name": "@seangenabe/peppermint",
+  "version": "1.0.0",
+  "description": "CommonJS wrapper for Peppermint - touch slider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel node_modules/Peppermint/dist/peppermint.js --out-file peppermint.js && cpy node_modules/Peppermint/dist/peppermint.required.css . && cpy node_modules/Peppermint/dist/peppermint.suggested.css .",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seangenabe/cjs-peppermint.git"
+  },
+  "keywords": [
+    "slider"
+  ],
+  "author": "Sean Genabe <seangenabe@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seangenabe/cjs-peppermint/issues"
+  },
+  "homepage": "https://github.com/seangenabe/cjs-peppermint#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.42",
+    "@babel/core": "^7.0.0-beta.42",
+    "Peppermint": "github:wilddeer/peppermint#1.4.0",
+    "commonjs-exporter": "file:commonjs-exporter",
+    "cpy-cli": "^1.0.1",
+    "remove-jquery": "file:remove-jquery"
+  }
+}

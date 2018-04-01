@@ -1,0 +1,6 @@
+{
+  "name": "remove-jquery",
+  "description": "remove reference to jQuery",
+  "version": "0.0.0",
+  "main": "index.js"
+}

@@ -1,0 +1,5 @@
+.vscode
+commonjs-exporter
+remove-jquery
+.babelrc
+build.js
