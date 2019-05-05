@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/seangenabe/cjs-peppermint#readme",
   "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.42",
-    "@babel/core": "^7.0.0-beta.42",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
     "Peppermint": "github:wilddeer/peppermint#1.4.0",
     "commonjs-exporter": "file:commonjs-exporter",
     "cpy-cli": "^1.0.1",
